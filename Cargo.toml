@@ -52,6 +52,7 @@ serde = { version = "1.0", features = ["derive"], optional = true }
 # https://github.com/rust-lang/cargo/issues/1596
 serde_json = { version = "1.0", optional = true }
 sqlparser_derive = { version = "0.3.0", path = "derive", optional = true }
+regex = "1.11.1"
 
 [dev-dependencies]
 simple_logger = "5.0"
